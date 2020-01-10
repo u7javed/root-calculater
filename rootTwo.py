@@ -4,7 +4,7 @@ import sys
 def main():
     quit = True;
     while quit:
-        num = input("enter a number")
+        num = input("Enter a number: ")
         if num == "q" or num == "Q":
             sys.exit()
         num = float(num)
